@@ -60,5 +60,3 @@ int[,] array = new int[rows, columns];
 NewArray(array);
 PrintArray(array);
 SearchSummColumnsTwoArray(array);
-
-

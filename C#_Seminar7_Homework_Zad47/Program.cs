@@ -45,5 +45,3 @@ void CreateTwoArray()
     PrintTwoArray(array); // метод, вывод в консоль
 }
 CreateTwoArray();
-
-
