@@ -26,9 +26,9 @@ void CreateTwoArray()
 //параметры Random (поиска случайных чисел) задает клиент
 // встроен метод  вывода в консоль результата
 {
-    Console.Write("Введите количество строк двумернго массива =  ");
+    Console.Write("Введите количество строк двумерного массива =  ");
     int rows = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите количество столбцов двумернго массива =  ");
+    Console.Write("Введите количество столбцов двумерного массива =  ");
     int columns = Convert.ToInt32(Console.ReadLine());
     double[,] array = new double[rows, columns];
     Console.Write("Создать массив из случайных чисел [мин, макс]. Введите минимальное значение = ");
