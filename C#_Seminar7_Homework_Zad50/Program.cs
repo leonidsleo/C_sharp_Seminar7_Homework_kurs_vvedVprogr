@@ -57,7 +57,7 @@ void SearchNumberIfTwoArray(int[,] array)
     if (n)
     {
         Console.WriteLine($"Число {numm} есть в массиве");
-        Console.Write($"Находится: строка {rows + 1}, столбец = {columns + 1}"); //выводит координаты последнего 
+        Console.Write($"Находится: строка {rows + 1}, столбец = {columns + 1}"); //для массива без повторяющихся значений, с повт. выводит координаты последнего
         Console.WriteLine();
     }
     else
